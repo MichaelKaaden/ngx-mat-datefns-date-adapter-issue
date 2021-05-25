@@ -1,5 +1,5 @@
 <h1>Date-Fns Test</h1>
 
-<p>Now, it is {{ this.clock$ | async }}.</p>
+<p>Now, it is {{ this.clock$ | async | dfnsFormat: 'PPPP, HH:mm:ss' }}.</p>
 
 <router-outlet></router-outlet>
