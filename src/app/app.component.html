@@ -1,10 +1,23 @@
 <h1>Date-Fns Test</h1>
 
+<h2>Plain Text</h2>
+
 <p>Now, it is {{ this.clock$ | async | dfnsFormat: "PPPP, HH:mm:ss" }}.</p>
+
+<h2>With a Date Picker</h2>
+
+<mat-form-field appearance="fill">
+  <mat-label>Choose a date</mat-label>
+  <input matInput [matDatepicker]="picker" [formControl]="date">
+  <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-datepicker #picker></mat-datepicker>
+</mat-form-field>
+
 
 <p>
   Set locale to
   <a href="#" (click)="changeToEnglish()">English</a> |
+  <a href="#" (click)="changeToFrench()">French</a> |
   <a href="#" (click)="changeToGerman()">German</a> |
   <a href="#" (click)="changeToSpanish()">Spanish</a>
   .
