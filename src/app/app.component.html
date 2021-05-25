@@ -1,5 +1,13 @@
 <h1>Date-Fns Test</h1>
 
-<p>Now, it is {{ this.clock$ | async | dfnsFormat: 'PPPP, HH:mm:ss' }}.</p>
+<p>Now, it is {{ this.clock$ | async | dfnsFormat: "PPPP, HH:mm:ss" }}.</p>
+
+<p>
+  Set locale to
+  <a href="#" (click)="changeToEnglish()">English</a> |
+  <a href="#" (click)="changeToGerman()">German</a> |
+  <a href="#" (click)="changeToSpanish()">Spanish</a>
+  .
+</p>
 
 <router-outlet></router-outlet>
