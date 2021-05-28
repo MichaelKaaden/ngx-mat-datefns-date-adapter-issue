@@ -3013,7 +3013,7 @@ date-fns-tz@^1.1.4:
   resolved "https://registry.yarnpkg.com/date-fns-tz/-/date-fns-tz-1.1.4.tgz#38282c2bfab08946a4e9bb89d733451e5525048b"
   integrity sha512-lQ+FF7xUxxRuRqIY7H/lagnT3PhhSnnvtGHzjE5WZKwRyLU7glJfLys05SZ7zHlEr6RXWiqkmgWq4nCkcElR+g==
 
-date-fns@^2.21.3:
+date-fns@2.21.3:
   version "2.21.3"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.21.3.tgz#8f5f6889d7a96bbcc1f0ea50239b397a83357f9b"
   integrity sha512-HeYdzCaFflc1i4tGbj7JKMjM4cKGYoyxwcIIkHzNgCkX8xXDNJDZXgDDVchIWpN4eQc3lH37WarduXFZJOtxfw==
@@ -5614,7 +5614,7 @@ ngx-date-fns@^8.1.0:
   dependencies:
     tslib "^2.0.0"
 
-ngx-mat-datefns-date-adapter@^11.2.0:
+ngx-mat-datefns-date-adapter@11.2.0:
   version "11.2.0"
   resolved "https://registry.yarnpkg.com/ngx-mat-datefns-date-adapter/-/ngx-mat-datefns-date-adapter-11.2.0.tgz#92ce7d00baec3dddd9d6d9762553b408aa35a22c"
   integrity sha512-rT5RZ/OuLIhSC0voueCIdGoDNMJP2Fr1CVxTy3MivL6XZIStV7Lrj+qswLz8yBBdHTLrlXMFJGPYYlo6T59oHA==
